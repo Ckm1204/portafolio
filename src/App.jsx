@@ -6,7 +6,7 @@ import './App.css'
 export default function App() {
   return (
     <div className=' w-screen h-screen bg-white'>
-      <header className="bg-gray-800 py-4 h-[60px] w-screen grid grid-cols-2">
+      <header className="bg-black py-4 h-[60px] w-screen grid grid-cols-2">
     <section></section>
     <section className="flex flex-rows items-center px-5 justify-center space-x-2">
         <button className="w-[80px] h-5 px-0 justify-center pb-6 text-black bg-white border rounded-lg">Home</button>
@@ -24,17 +24,30 @@ export default function App() {
 </header>
 
 
-      {/*Body) */}
-      <main >
-        <section className="grid grid-cols-2 h-screen w-screen">
-          <section className="bg-white py-4 flex items-center justify-center h-screen">
-            <section>
-              <h2 className="text-center text-5xl font-bold flex-col order-start">Bienvenido</h2>
-              <h3 className=" flex flex-col order-2text-center justify-center font-oswald text-4xl">Soy Camilo Tello</h3>
-              </section> 
-          </section>
-          <section className="bg-gray-300"></section>
-        </section>
+{/*Body) */}
+  <main >
+
+
+  <section className="grid grid-cols-2 h-screen w-screen">
+  <section className="bg-white relative py-4 flex items-center justify-center">
+    <section>
+      <h2 className="text-center text-5xl font-bold flex-col order-start">Bienvenido</h2>
+      <h3 className="flex flex-col order-2 text-center justify-center font-oswald text-4xl">Soy Camilo Tello</h3>
+    </section> 
+  </section>
+  <section>
+  <section className="relative   overflow-hidden">
+    <section className="w-screen  h-screen bg-[url(https://file.rendit.io/n/qjZSHsd5fjnH5BKxCsGt.svg)] -ml-[100px] ">
+      <img src="https://file.rendit.io/n/p0yL8r6nKcA4WRERvB5J.svg" />
+    </section>
+  </section>
+</section>
+</section>
+
+
+
+
+    
 
 
 
